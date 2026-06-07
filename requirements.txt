@@ -1,0 +1,9 @@
+openai
+openai-agents
+python-dotenv
+pydantic
+sendgrid
+gradio==5.49.1
+crewai
+yfinance
+pandas

@@ -1,0 +1,6 @@
+#!/Users/pappubhai/Desktop/Other/Saumya_Docs/AI-ML/equity-research-crewai/.venv/bin/python
+import sys
+from gradio.themes.upload_theme import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
