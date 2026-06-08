@@ -9,7 +9,9 @@ class PushNotification(BaseModel):
     """A message to be sent to the user"""
     message: str = Field(..., description="The message to be sent to the user.")
 
-class PushNotification(BaseTool):
+class PushNotificationTool(BaseTool):
+    
+
     name: str = "Send a Push Notification"
     description: str = (
         "This tool is used to send a push notification to the user."
