@@ -193,6 +193,10 @@ cython_debug/
 memory.db-shm
 memory.db-wal
 memory.db
+db_path="./memory/long_term_memory_storage.db"
+path="./memory/"
+# CrewAI memory
+memory/
 
 # Ignore Accounts database in capstone project
 6_mcp/accounts.db
